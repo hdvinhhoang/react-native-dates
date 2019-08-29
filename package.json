@@ -1,16 +1,48 @@
 {
-  "name": "react-native-dates",
-  "version": "2.1.0",
-  "description": "Date and daterange picker for React Native (iOS and Android)",
-  "main": "src/index.js",
-  "scripts": {
-    "eslint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_from": "git+https://github.com/hdvinhhoang/react-native-dates.git",
+  "_id": "react-native-dates@2.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-dates",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/werein/react-native-dates.git"
+    "raw": "https://github.com/hdvinhhoang/react-native-dates.git",
+    "rawSpec": "https://github.com/hdvinhhoang/react-native-dates.git",
+    "saveSpec": "git+https://github.com/hdvinhhoang/react-native-dates.git",
+    "fetchSpec": "https://github.com/hdvinhhoang/react-native-dates.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/hdvinhhoang/react-native-dates.git#aa9bc071002cf4e8590a68d0c01f534e1025503f",
+  "_spec": "https://github.com/hdvinhhoang/react-native-dates.git",
+  "_where": "/Users/vinhhoang/Documents/works/react-native/myestatemobile",
+  "author": {
+    "name": "We're in"
+  },
+  "bugs": {
+    "url": "https://github.com/werein/react-native-dates/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-range": "4.0.2"
+  },
+  "deprecated": false,
+  "description": "Date and daterange picker for React Native (iOS and Android)",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "flow-bin": "^0.41.0"
+  },
+  "homepage": "https://github.com/werein/react-native-dates#readme",
   "keywords": [
     "react",
     "react",
@@ -20,27 +52,20 @@
     "daterange",
     "picker"
   ],
-  "author": "We're in",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/werein/react-native-dates/issues"
-  },
-  "homepage": "https://github.com/werein/react-native-dates#readme",
-  "dependencies": {
-    "moment": "^2.24.0",
-    "moment-range": "4.0.2"
-  },
+  "main": "src/index.js",
+  "name": "react-native-dates",
   "peerDependencies": {
     "react": "^16.8.6",
     "react-native": "^0.60.4"
   },
-  "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.17.1",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0",
-    "flow-bin": "^0.41.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werein/react-native-dates.git"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.0"
 }
